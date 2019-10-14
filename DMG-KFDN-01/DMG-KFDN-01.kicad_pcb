@@ -2,7 +2,7 @@
 
   (general
     (thickness 0.8)
-    (drawings 23)
+    (drawings 24)
     (tracks 735)
     (zones 0)
     (modules 15)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers/"))
+      (outputdirectory "D:/OneDrive/Dokumenter/GitHub/NintendoPCBs/Gerbers/"))
   )
 
   (net 0 "")
@@ -989,6 +989,9 @@
     )
   )
 
+  (gr_text V1.0 (at 120.77192 70.95236) (layer B.Mask)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_circle (center 135.27278 78.5876) (end 135.636 78.3209) (layer F.SilkS) (width 0.15))
   (gr_circle (center 149.95652 99.88804) (end 150.28926 100.14458) (layer F.SilkS) (width 0.15))
   (gr_circle (center 128.88722 102.03434) (end 129.27076 102.3366) (layer F.SilkS) (width 0.15))
@@ -1751,7 +1754,7 @@
   (via (at 135.4847 102.7435) (size 0.8) (layers F.Cu B.Cu) (net 51))
   (via (at 126.1461 89.4541) (size 0.8) (layers F.Cu B.Cu) (net 51))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5DA4AE26) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5DA4B751) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing chamfer) (radius 2))
@@ -1803,7 +1806,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5DA4B74E) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
