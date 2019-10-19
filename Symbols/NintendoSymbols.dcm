@@ -1,7 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AT29LV512
+F https://github.com/MrHDR/NintendoPCBs/blob/master/Datasheets/AT29LV512.pdf
+$ENDCMP
+#
 $CMP GM76C256CLLFW70
 F https://github.com/MrHDR/NintendoPCBs/Datasheets/GM76C256CLLE.pdf
+$ENDCMP
+#
+$CMP S3511
+F https://github.com/MrHDR/NintendoPCBs/blob/master/Datasheets/S3511.pdf
 $ENDCMP
 #
 #End Doc Library
