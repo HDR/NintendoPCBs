@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "../Gerbers/"))
   )
 
   (net 0 "")
@@ -349,7 +349,7 @@
   )
 
   (module NintendoFootprints:CR1616 (layer F.Cu) (tedit 5DA86903) (tstamp 5DA93E40)
-    (at 165.275 83.1291 30)
+    (at 165.186312 82.9722 30)
     (path /5DA88FB7)
     (fp_text reference BT1 (at -0.07112 4.97078 30) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2181,7 +2181,7 @@
   (segment (start 140.8935 78.8568) (end 138.2373 78.8568) (width 0.2) (layer F.Cu) (net 44))
   (segment (start 140.8935 78.8568) (end 141.831 78.8568) (width 0.2) (layer F.Cu) (net 44))
 
-  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 5DABCF11) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 5DCDB786) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2315,7 +2315,7 @@
       )
     )
   )
-  (zone (net 3) (net_name GND) (layer B.Cu) (tstamp 5DABCF0E) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer B.Cu) (tstamp 5DCDB783) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2383,7 +2383,7 @@
       )
     )
   )
-  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 5DCDB780) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
