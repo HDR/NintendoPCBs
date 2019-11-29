@@ -1,0 +1,1084 @@
+EESchema Schematic File Version 4
+LIBS:DMG-A04-01-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Gameboy:MBC5 U2
+U 1 1 5DD1FE8F
+P 9575 725
+F 0 "U2" H 8575 -125 50  0000 L CNN
+F 1 "MBC5" H 8550 -800 50  0000 L CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 8025 175 50  0001 C CNN
+F 3 "" H 8025 175 50  0001 C CNN
+	1    9575 725 
+	1    0    0    -1  
+$EndComp
+$Comp
+L NintendoSymbols:HY6264A U3
+U 1 1 5DD256C7
+P 10300 1400
+F 0 "U3" H 10300 1575 50  0000 C CNN
+F 1 "HY6264A" H 10300 1484 50  0000 C CNN
+F 2 "NintendoFootprints:HY6264A" H 10300 1400 50  0001 C CNN
+F 3 "" H 10300 1400 50  0001 C CNN
+	1    10300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L NintendoSymbols:MM1134A U4
+U 1 1 5DD274B7
+P 6600 1425
+F 0 "U4" H 6600 1600 50  0000 C CNN
+F 1 "MM1134A" H 6600 1509 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6500 1425 50  0001 C CNN
+F 3 "" H 6500 1425 50  0001 C CNN
+	1    6600 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L NintendoSymbols:CartBus U0
+U 1 1 5DD2CA51
+P 8375 5475
+F 0 "U0" H 9325 5102 50  0000 C CNN
+F 1 "CartBus" H 9325 5011 50  0000 C CNN
+F 2 "Custom:GBBus" H 8375 5475 50  0001 C CNN
+F 3 "" H 8375 5475 50  0001 C CNN
+	1    8375 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 5375 7775 5325
+Wire Wire Line
+	7875 5375 7875 5325
+Wire Wire Line
+	7975 5375 7975 5325
+Wire Wire Line
+	8075 5375 8075 5325
+Wire Wire Line
+	8175 5375 8175 5325
+Wire Wire Line
+	8275 5375 8275 5325
+Wire Wire Line
+	8375 5375 8375 5325
+Wire Wire Line
+	8475 5375 8475 5325
+Wire Wire Line
+	8575 5375 8575 5325
+Wire Wire Line
+	8675 5375 8675 5325
+Wire Wire Line
+	8775 5375 8775 5325
+Wire Wire Line
+	8875 5375 8875 5325
+Wire Wire Line
+	8975 5375 8975 5325
+Wire Wire Line
+	9075 5375 9075 5325
+Wire Wire Line
+	9175 5375 9175 5325
+Wire Wire Line
+	9275 5375 9275 5325
+Wire Wire Line
+	9375 5375 9375 5325
+Wire Wire Line
+	9475 5375 9475 5325
+Wire Wire Line
+	9575 5375 9575 5325
+Wire Wire Line
+	9675 5375 9675 5325
+Wire Wire Line
+	9775 5375 9775 5325
+Wire Wire Line
+	9875 5375 9875 5325
+Wire Wire Line
+	9975 5375 9975 5325
+Wire Wire Line
+	10075 5375 10075 5325
+Wire Wire Line
+	10175 5375 10175 5325
+Wire Wire Line
+	10275 5375 10275 5325
+Wire Wire Line
+	10375 5375 10375 5325
+Wire Wire Line
+	10475 5375 10475 5325
+Wire Wire Line
+	10575 5375 10575 5325
+Wire Wire Line
+	10675 5375 10675 5325
+Wire Wire Line
+	10875 5375 10875 5325
+$Comp
+L power:+5V #PWR0101
+U 1 1 5DD2FF76
+P 7775 5325
+F 0 "#PWR0101" H 7775 5175 50  0001 C CNN
+F 1 "+5V" V 7790 5498 50  0000 C CNN
+F 2 "" H 7775 5325 50  0001 C CNN
+F 3 "" H 7775 5325 50  0001 C CNN
+	1    7775 5325
+	1    0    0    -1  
+$EndComp
+Text GLabel 7875 5325 1    50   Input ~ 0
+CLK
+Text GLabel 7975 5325 1    50   Input ~ 0
+WR
+Text GLabel 8075 5325 1    50   Input ~ 0
+\RD
+Text GLabel 8175 5325 1    50   Input ~ 0
+CS
+Text GLabel 8275 5325 1    50   Input ~ 0
+A0
+Text GLabel 8375 5325 1    50   Input ~ 0
+A1
+Text GLabel 8475 5325 1    50   Input ~ 0
+A2
+Text GLabel 8575 5325 1    50   Input ~ 0
+A3
+Text GLabel 8675 5325 1    50   Input ~ 0
+A4
+Text GLabel 8775 5325 1    50   Input ~ 0
+A5
+Text GLabel 8875 5325 1    50   Input ~ 0
+A6
+Text GLabel 8975 5325 1    50   Input ~ 0
+A7
+Text GLabel 9075 5325 1    50   Input ~ 0
+A8
+Text GLabel 9175 5325 1    50   Input ~ 0
+A9
+Text GLabel 9275 5325 1    50   Input ~ 0
+A10
+Text GLabel 9375 5325 1    50   Input ~ 0
+A11
+Text GLabel 9475 5325 1    50   Input ~ 0
+A12
+Text GLabel 9575 5325 1    50   Input ~ 0
+A13
+Text GLabel 9675 5325 1    50   Input ~ 0
+A14
+Text GLabel 9775 5325 1    50   Input ~ 0
+A15
+Text GLabel 9875 5325 1    50   Input ~ 0
+D0
+Text GLabel 9975 5325 1    50   Input ~ 0
+D1
+Text GLabel 10075 5325 1    50   Input ~ 0
+D2
+Text GLabel 10175 5325 1    50   Input ~ 0
+D3
+Text GLabel 10275 5325 1    50   Input ~ 0
+D4
+Text GLabel 10375 5325 1    50   Input ~ 0
+D5
+Text GLabel 10475 5325 1    50   Input ~ 0
+D6
+Text GLabel 10575 5325 1    50   Input ~ 0
+D7
+Text GLabel 10675 5325 1    50   Input ~ 0
+RESET
+$Comp
+L power:GND #PWR0102
+U 1 1 5DD32109
+P 10875 5325
+F 0 "#PWR0102" H 10875 5075 50  0001 C CNN
+F 1 "GND" V 10880 5152 50  0000 C CNN
+F 2 "" H 10875 5325 50  0001 C CNN
+F 3 "" H 10875 5325 50  0001 C CNN
+	1    10875 5325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5DD330CF
+P 9925 1000
+F 0 "C5" V 9673 1000 50  0000 C CNN
+F 1 "NC" V 9764 1000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9963 850 50  0001 C CNN
+F 3 "~" H 9925 1000 50  0001 C CNN
+	1    9925 1000
+	0    1    1    0   
+$EndComp
+Text GLabel 9725 1000 0    50   Input ~ 0
+RESET
+$Comp
+L power:GND #PWR0103
+U 1 1 5DD33948
+P 10125 1000
+F 0 "#PWR0103" H 10125 750 50  0001 C CNN
+F 1 "GND" V 10130 872 50  0000 R CNN
+F 2 "" H 10125 1000 50  0001 C CNN
+F 3 "" H 10125 1000 50  0001 C CNN
+	1    10125 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10125 1000 10075 1000
+Wire Wire Line
+	9775 1000 9725 1000
+$Comp
+L Device:R R3
+U 1 1 5DD38469
+P 5600 4100
+F 0 "R3" V 5500 4100 50  0000 C CNN
+F 1 "390" V 5600 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5530 4100 50  0001 C CNN
+F 3 "~" H 5600 4100 50  0001 C CNN
+	1    5600 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 4100 5750 4100
+Wire Wire Line
+	6000 4000 5450 4000
+Wire Wire Line
+	5450 4000 5450 4100
+$Comp
+L Device:R R2
+U 1 1 5DD3A49F
+P 6900 4000
+F 0 "R2" V 7000 4000 50  0000 C CNN
+F 1 "30K" V 6900 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6830 4000 50  0001 C CNN
+F 3 "~" H 6900 4000 50  0001 C CNN
+	1    6900 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 4100 6750 4100
+Wire Wire Line
+	6700 3900 6700 3500
+Wire Wire Line
+	6700 3500 6500 3500
+$Comp
+L Mechanical:MountingHole_Pad MOT1-1
+U 1 1 5DD3D322
+P 6400 3500
+F 0 "MOT1-1" V 6354 3650 50  0000 L CNN
+F 1 "Motor VCC" V 6445 3650 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 6400 3500 50  0001 C CNN
+F 3 "~" H 6400 3500 50  0001 C CNN
+	1    6400 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MOT1-2
+U 1 1 5DD40D4B
+P 6400 3225
+F 0 "MOT1-2" V 6354 3375 50  0000 L CNN
+F 1 "Motor GND" V 6445 3375 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 6400 3225 50  0001 C CNN
+F 3 "~" H 6400 3225 50  0001 C CNN
+	1    6400 3225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5DD42200
+P 6550 3225
+F 0 "#PWR0104" H 6550 2975 50  0001 C CNN
+F 1 "GND" V 6555 3097 50  0000 R CNN
+F 2 "" H 6550 3225 50  0001 C CNN
+F 3 "" H 6550 3225 50  0001 C CNN
+	1    6550 3225
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7875 1525 0    50   Input ~ 0
+AA16
+Wire Wire Line
+	7875 1525 7925 1525
+$Comp
+L power:GND #PWR0105
+U 1 1 5DD4488E
+P 6750 4100
+F 0 "#PWR0105" H 6750 3850 50  0001 C CNN
+F 1 "GND" V 6755 3972 50  0000 R CNN
+F 2 "" H 6750 4100 50  0001 C CNN
+F 3 "" H 6750 4100 50  0001 C CNN
+	1    6750 4100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7125 4000 2    50   Input ~ 0
+AA16
+Wire Wire Line
+	6550 3225 6500 3225
+$Comp
+L Mechanical:MountingHole_Pad Bat2-1
+U 1 1 5DD474A3
+P 5475 3900
+F 0 "Bat2-1" V 5429 4050 50  0000 L CNN
+F 1 "AAA Positive" V 5520 4050 50  0000 L CNN
+F 2 "NintendoFootprints:DMG-A04-01_BAT2-Positive" H 5475 3900 50  0001 C CNN
+F 3 "~" H 5475 3900 50  0001 C CNN
+	1    5475 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5DD4B653
+P 5775 4325
+F 0 "#PWR0106" H 5775 4075 50  0001 C CNN
+F 1 "GND" V 5780 4197 50  0000 R CNN
+F 2 "" H 5775 4325 50  0001 C CNN
+F 3 "" H 5775 4325 50  0001 C CNN
+	1    5775 4325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5775 4325 5725 4325
+Wire Wire Line
+	6750 4000 6700 4000
+Wire Wire Line
+	7125 4000 7050 4000
+$Comp
+L NintendoSymbols:MX23C8006-12 U1
+U 1 1 5DD5C6B8
+P 9400 3075
+F 0 "U1" H 9400 3200 50  0000 C CNN
+F 1 "MX23C8006-12" H 9400 3109 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-32_11.8x8mm_P0.5mm" H 9400 3075 50  0001 C CNN
+F 3 "" H 9400 3075 50  0001 C CNN
+	1    9400 3075
+	1    0    0    -1  
+$EndComp
+Text GLabel 10150 4375 2    50   Input ~ 0
+A0
+Text GLabel 10150 4475 2    50   Input ~ 0
+A1
+Text GLabel 10150 4575 2    50   Input ~ 0
+A2
+Text GLabel 10150 4675 2    50   Input ~ 0
+A3
+Text GLabel 8650 4675 0    50   Input ~ 0
+A4
+Text GLabel 8650 4575 0    50   Input ~ 0
+A5
+Text GLabel 8650 4475 0    50   Input ~ 0
+A6
+Text GLabel 8650 4375 0    50   Input ~ 0
+A7
+Text GLabel 8650 3375 0    50   Input ~ 0
+A8
+Text GLabel 8650 3275 0    50   Input ~ 0
+A9
+Text GLabel 10150 3275 2    50   Input ~ 0
+A10
+Text GLabel 8650 3175 0    50   Input ~ 0
+A11
+Text GLabel 8650 4275 0    50   Input ~ 0
+A12
+Text GLabel 8650 3475 0    50   Input ~ 0
+A13
+Text GLabel 8650 3575 0    50   Input ~ 0
+RA14
+Text GLabel 8650 4175 0    50   Input ~ 0
+RA15
+Wire Wire Line
+	10100 4375 10150 4375
+Wire Wire Line
+	10150 4475 10100 4475
+Wire Wire Line
+	10150 4575 10100 4575
+Wire Wire Line
+	10100 4675 10150 4675
+Wire Wire Line
+	10100 3975 10150 3975
+Wire Wire Line
+	10150 4075 10100 4075
+Wire Wire Line
+	10150 4175 10100 4175
+Wire Wire Line
+	10100 4275 10150 4275
+Wire Wire Line
+	10100 3575 10150 3575
+Wire Wire Line
+	10150 3675 10100 3675
+Wire Wire Line
+	10150 3775 10100 3775
+Wire Wire Line
+	10100 3875 10150 3875
+Wire Wire Line
+	10100 3175 10150 3175
+Wire Wire Line
+	10150 3275 10100 3275
+Wire Wire Line
+	10150 3375 10100 3375
+Wire Wire Line
+	10100 3475 10150 3475
+Wire Wire Line
+	8650 4375 8700 4375
+Wire Wire Line
+	8700 4475 8650 4475
+Wire Wire Line
+	8700 4575 8650 4575
+Wire Wire Line
+	8650 4675 8700 4675
+Wire Wire Line
+	8650 3975 8700 3975
+Wire Wire Line
+	8700 4075 8650 4075
+Wire Wire Line
+	8700 4175 8650 4175
+Wire Wire Line
+	8650 4275 8700 4275
+Wire Wire Line
+	8650 3575 8700 3575
+Wire Wire Line
+	8700 3675 8650 3675
+Wire Wire Line
+	8700 3775 8650 3775
+Wire Wire Line
+	8650 3175 8700 3175
+Wire Wire Line
+	8700 3275 8650 3275
+Wire Wire Line
+	8700 3375 8650 3375
+Wire Wire Line
+	8650 3475 8700 3475
+Text GLabel 10150 4275 2    50   Input ~ 0
+D0
+Text GLabel 10150 4175 2    50   Input ~ 0
+D1
+Text GLabel 10150 4075 2    50   Input ~ 0
+D2
+Text GLabel 10150 3875 2    50   Input ~ 0
+D3
+Text GLabel 10150 3775 2    50   Input ~ 0
+D4
+Text GLabel 10150 3675 2    50   Input ~ 0
+D5
+Text GLabel 10150 3575 2    50   Input ~ 0
+D6
+Text GLabel 10150 3475 2    50   Input ~ 0
+D7
+$Comp
+L power:GND #PWR0107
+U 1 1 5DD75B29
+P 10150 3975
+F 0 "#PWR0107" H 10150 3725 50  0001 C CNN
+F 1 "GND" V 10155 3802 50  0000 C CNN
+F 2 "" H 10150 3975 50  0001 C CNN
+F 3 "" H 10150 3975 50  0001 C CNN
+	1    10150 3975
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10150 3175 2    50   Input ~ 0
+\RD
+$Comp
+L power:+5V #PWR0108
+U 1 1 5DD792C6
+P 8275 3800
+F 0 "#PWR0108" H 8275 3650 50  0001 C CNN
+F 1 "+5V" V 8290 3973 50  0000 C CNN
+F 2 "" H 8275 3800 50  0001 C CNN
+F 3 "" H 8275 3800 50  0001 C CNN
+	1    8275 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8425 2625 8425 2675
+Text GLabel 8425 2675 3    50   Input ~ 0
+A15
+$Comp
+L power:+5V #PWR0109
+U 1 1 5DE04262
+P 7050 1475
+F 0 "#PWR0109" H 7050 1325 50  0001 C CNN
+F 1 "+5V" V 7050 1650 50  0000 C CNN
+F 2 "" H 7050 1475 50  0001 C CNN
+F 3 "" H 7050 1475 50  0001 C CNN
+	1    7050 1475
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 5DE1A5E7
+P 8000 900
+F 0 "#PWR0110" H 8000 750 50  0001 C CNN
+F 1 "+5V" H 8000 1075 50  0000 C CNN
+F 2 "" H 8000 900 50  0001 C CNN
+F 3 "" H 8000 900 50  0001 C CNN
+	1    8000 900 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7425 4975 11100 4975
+Text Notes 10475 4925 0    50   ~ 0
+MBC, ROM, RAM
+Text GLabel 9900 1550 0    50   Input ~ 0
+A12
+Wire Wire Line
+	9900 1550 9950 1550
+NoConn ~ 9950 1450
+Wire Wire Line
+	6950 1475 7000 1475
+Wire Wire Line
+	6950 1675 7000 1675
+Text GLabel 7000 1675 2    50   Input ~ 0
+RamVcc
+Wire Wire Line
+	10650 1450 10700 1450
+Text GLabel 10750 1450 2    50   Input ~ 0
+RamVcc
+$Comp
+L power:GND #PWR0111
+U 1 1 5DE5662B
+P 8425 900
+F 0 "#PWR0111" H 8425 650 50  0001 C CNN
+F 1 "GND" H 8430 727 50  0000 C CNN
+F 2 "" H 8425 900 50  0001 C CNN
+F 3 "" H 8425 900 50  0001 C CNN
+	1    8425 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8575 2625 8575 2675
+$Comp
+L power:GND #PWR0112
+U 1 1 5DE5A97A
+P 8575 2675
+F 0 "#PWR0112" H 8575 2425 50  0001 C CNN
+F 1 "GND" V 8580 2502 50  0000 C CNN
+F 2 "" H 8575 2675 50  0001 C CNN
+F 3 "" H 8575 2675 50  0001 C CNN
+	1    8575 2675
+	1    0    0    -1  
+$EndComp
+Text GLabel 9900 1650 0    50   Input ~ 0
+A7
+Wire Wire Line
+	9900 1650 9950 1650
+Text GLabel 9900 1950 0    50   Input ~ 0
+A4
+Text GLabel 9900 1850 0    50   Input ~ 0
+A5
+Text GLabel 9900 1750 0    50   Input ~ 0
+A6
+Wire Wire Line
+	9950 1750 9900 1750
+Wire Wire Line
+	9950 1850 9900 1850
+Wire Wire Line
+	9900 1950 9950 1950
+Text GLabel 9900 2350 0    50   Input ~ 0
+A0
+Text GLabel 9900 2250 0    50   Input ~ 0
+A1
+Text GLabel 9900 2150 0    50   Input ~ 0
+A2
+Text GLabel 9900 2050 0    50   Input ~ 0
+A3
+Wire Wire Line
+	9900 2050 9950 2050
+Wire Wire Line
+	9950 2150 9900 2150
+Wire Wire Line
+	9900 2250 9950 2250
+Wire Wire Line
+	9950 2350 9900 2350
+Wire Wire Line
+	9900 2650 9950 2650
+Wire Wire Line
+	9900 2550 9950 2550
+Wire Wire Line
+	9950 2450 9900 2450
+Text GLabel 9900 2450 0    50   Input ~ 0
+D0
+Text GLabel 9900 2550 0    50   Input ~ 0
+D1
+Text GLabel 9900 2650 0    50   Input ~ 0
+D2
+Wire Wire Line
+	9950 2750 9900 2750
+$Comp
+L power:GND #PWR0113
+U 1 1 5DE6F635
+P 9900 2750
+F 0 "#PWR0113" H 9900 2500 50  0001 C CNN
+F 1 "GND" V 9905 2577 50  0000 C CNN
+F 2 "" H 9900 2750 50  0001 C CNN
+F 3 "" H 9900 2750 50  0001 C CNN
+	1    9900 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 2450 10700 2450
+Wire Wire Line
+	10700 2550 10650 2550
+Wire Wire Line
+	10700 2650 10650 2650
+Wire Wire Line
+	10650 2750 10700 2750
+Wire Wire Line
+	10650 2350 10700 2350
+Text GLabel 10700 2750 2    50   Input ~ 0
+D3
+Text GLabel 10700 2650 2    50   Input ~ 0
+D4
+Text GLabel 10700 2550 2    50   Input ~ 0
+D5
+Text GLabel 10700 2450 2    50   Input ~ 0
+D6
+Text GLabel 10700 2350 2    50   Input ~ 0
+D7
+Wire Wire Line
+	9375 1675 9425 1675
+Text GLabel 9425 1675 2    50   Input ~ 0
+RAMCS
+Wire Wire Line
+	10650 2250 10700 2250
+Text GLabel 10700 2250 2    50   Input ~ 0
+RAMCS
+Wire Wire Line
+	6250 1675 6200 1675
+Text GLabel 6200 1675 0    50   Input ~ 0
+RAMCS
+Wire Wire Line
+	10650 1650 10700 1650
+Text GLabel 10700 1650 2    50   Input ~ 0
+RAMCS
+Wire Wire Line
+	10650 2050 10700 2050
+Text GLabel 10700 2050 2    50   Input ~ 0
+\RD
+Wire Wire Line
+	10650 1550 10700 1550
+Text GLabel 10700 1550 2    50   Input ~ 0
+WR
+Text GLabel 10700 1750 2    50   Input ~ 0
+A8
+Text GLabel 10700 1850 2    50   Input ~ 0
+A9
+Wire Wire Line
+	10650 1850 10700 1850
+Wire Wire Line
+	10650 1750 10700 1750
+Text GLabel 10700 1950 2    50   Input ~ 0
+A11
+Wire Wire Line
+	10700 1950 10650 1950
+Text GLabel 10700 2150 2    50   Input ~ 0
+A10
+Wire Wire Line
+	10700 2150 10650 2150
+Text GLabel 8650 4075 0    50   Input ~ 0
+RA16
+Text GLabel 8650 3975 0    50   Input ~ 0
+RA19
+Text GLabel 8650 3775 0    50   Input ~ 0
+RA18
+Text GLabel 8650 3675 0    50   Input ~ 0
+RA17
+Text GLabel 10150 3375 2    50   Input ~ 0
+A15
+NoConn ~ 7925 1675
+NoConn ~ 7925 1825
+NoConn ~ 7925 1975
+Wire Wire Line
+	8725 2625 8725 2675
+Wire Wire Line
+	8875 2625 8875 2675
+Wire Wire Line
+	9025 2625 9025 2675
+Wire Wire Line
+	9175 2625 9175 2675
+Wire Wire Line
+	8125 2625 8125 2675
+Wire Wire Line
+	8275 2625 8275 2675
+Wire Wire Line
+	9375 2425 9425 2425
+Wire Wire Line
+	9375 2275 9425 2275
+Wire Wire Line
+	9375 2125 9425 2125
+Wire Wire Line
+	9375 1975 9425 1975
+Wire Wire Line
+	9375 1525 9425 1525
+Wire Wire Line
+	9375 1375 9425 1375
+Wire Wire Line
+	7875 2275 7925 2275
+Wire Wire Line
+	7875 2125 7925 2125
+Wire Wire Line
+	8875 1175 8875 1125
+Wire Wire Line
+	8725 1175 8725 1125
+Wire Wire Line
+	9175 1175 9175 1125
+Wire Wire Line
+	9025 1175 9025 1125
+Wire Wire Line
+	9425 1825 9375 1825
+Wire Wire Line
+	7875 2425 7925 2425
+NoConn ~ 8575 1175
+NoConn ~ 8425 1175
+NoConn ~ 7925 1375
+Text GLabel 9425 1525 2    50   Input ~ 0
+RA14
+Text GLabel 8875 1125 1    50   Input ~ 0
+RA18
+Text GLabel 9025 1125 1    50   Input ~ 0
+RA17
+Text GLabel 9425 1375 2    50   Input ~ 0
+RA15
+Text GLabel 9175 1125 1    50   Input ~ 0
+RA16
+Text GLabel 8725 1125 1    50   Input ~ 0
+RA19
+Text GLabel 8275 2675 3    50   Input ~ 0
+A14
+Text GLabel 8125 2675 3    50   Input ~ 0
+A13
+Text GLabel 7875 2425 0    50   Input ~ 0
+A12
+Text GLabel 8725 2675 3    50   Input ~ 0
+D0
+Text GLabel 8875 2675 3    50   Input ~ 0
+D1
+Text GLabel 9025 2675 3    50   Input ~ 0
+D2
+Text GLabel 9175 2675 3    50   Input ~ 0
+D3
+Text GLabel 9425 2425 2    50   Input ~ 0
+D4
+Text GLabel 9425 2275 2    50   Input ~ 0
+D5
+Text GLabel 9425 2125 2    50   Input ~ 0
+D6
+Text GLabel 9425 1975 2    50   Input ~ 0
+D7
+Text GLabel 7875 2275 0    50   Input ~ 0
+CS
+Text GLabel 7875 2125 0    50   Input ~ 0
+WR
+Text GLabel 9425 1825 2    50   Input ~ 0
+RESET
+NoConn ~ 10775 5375
+Wire Wire Line
+	6250 1475 6200 1475
+$Comp
+L power:GND #PWR0114
+U 1 1 5DF50993
+P 6200 1475
+F 0 "#PWR0114" H 6200 1225 50  0001 C CNN
+F 1 "GND" V 6205 1347 50  0000 R CNN
+F 2 "" H 6200 1475 50  0001 C CNN
+F 3 "" H 6200 1475 50  0001 C CNN
+	1    6200 1475
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Battery_Cell BAT1
+U 1 1 5DF55560
+P 6425 2225
+F 0 "BAT1" V 6575 2175 50  0000 L CNN
+F 1 "CR1616" V 6250 2125 50  0000 L CNN
+F 2 "NintendoFootprints:CR1616-DMG" V 6425 2285 50  0001 C CNN
+F 3 "~" V 6425 2285 50  0001 C CNN
+	1    6425 2225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DF63371
+P 6150 2000
+F 0 "R1" V 6050 1950 50  0000 L CNN
+F 1 "10K" V 6150 1925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6080 2000 50  0001 C CNN
+F 3 "~" H 6150 2000 50  0001 C CNN
+	1    6150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1775 6150 1775
+Wire Wire Line
+	6150 1775 6150 1850
+Wire Wire Line
+	6150 2150 6150 2225
+Wire Wire Line
+	6150 2225 6225 2225
+$Comp
+L power:GND #PWR0115
+U 1 1 5DF6F152
+P 6650 2225
+F 0 "#PWR0115" H 6650 1975 50  0001 C CNN
+F 1 "GND" V 6655 2097 50  0000 R CNN
+F 2 "" H 6650 2225 50  0001 C CNN
+F 3 "" H 6650 2225 50  0001 C CNN
+	1    6650 2225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5DF742EE
+P 6600 2525
+F 0 "C1" H 6715 2525 50  0000 L CNN
+F 1 "C" H 6715 2480 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6638 2375 50  0001 C CNN
+F 3 "~" H 6600 2525 50  0001 C CNN
+	1    6600 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2225 6600 2375
+Wire Wire Line
+	6525 2225 6600 2225
+Wire Wire Line
+	6650 2225 6600 2225
+Connection ~ 6600 2225
+Wire Wire Line
+	6600 2675 6600 2725
+$Comp
+L power:+5V #PWR0116
+U 1 1 5DF88233
+P 6600 2725
+F 0 "#PWR0116" H 6600 2575 50  0001 C CNN
+F 1 "+5V" H 6615 2898 50  0000 C CNN
+F 2 "" H 6600 2725 50  0001 C CNN
+F 3 "" H 6600 2725 50  0001 C CNN
+	1    6600 2725
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5DF8D891
+P 8275 4075
+F 0 "C2" H 8475 4075 50  0000 R CNN
+F 1 "C" H 8425 4175 50  0001 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8313 3925 50  0001 C CNN
+F 3 "~" H 8275 4075 50  0001 C CNN
+	1    8275 4075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8275 3875 8275 3800
+Wire Wire Line
+	8275 3875 8700 3875
+Wire Wire Line
+	8275 3925 8275 3875
+Connection ~ 8275 3875
+Wire Wire Line
+	8275 4225 8275 4275
+$Comp
+L power:GND #PWR0117
+U 1 1 5DFA117A
+P 8275 4275
+F 0 "#PWR0117" H 8275 4025 50  0001 C CNN
+F 1 "GND" H 8280 4102 50  0000 C CNN
+F 2 "" H 8275 4275 50  0001 C CNN
+F 3 "" H 8275 4275 50  0001 C CNN
+	1    8275 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5DFA1F85
+P 10700 1175
+F 0 "C3" H 10900 1175 50  0000 R CNN
+F 1 "C" H 10850 1275 50  0001 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10738 1025 50  0001 C CNN
+F 3 "~" H 10700 1175 50  0001 C CNN
+	1    10700 1175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10700 1450 10700 1325
+Wire Wire Line
+	10750 1450 10700 1450
+Connection ~ 10700 1450
+Wire Wire Line
+	10700 1025 10700 975 
+$Comp
+L power:GND #PWR0118
+U 1 1 5DFB9213
+P 10700 975
+F 0 "#PWR0118" H 10700 725 50  0001 C CNN
+F 1 "GND" V 10700 775 50  0000 C CNN
+F 2 "" H 10700 975 50  0001 C CNN
+F 3 "" H 10700 975 50  0001 C CNN
+	1    10700 975 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5DFBFCCD
+P 8200 900
+F 0 "C4" V 8350 950 50  0000 R CNN
+F 1 "C" H 8350 1000 50  0001 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8238 750 50  0001 C CNN
+F 3 "~" H 8200 900 50  0001 C CNN
+	1    8200 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8425 900  8375 900 
+Wire Wire Line
+	8375 900  8375 1025
+Wire Wire Line
+	8375 1025 8275 1025
+Wire Wire Line
+	8275 1025 8275 1175
+Connection ~ 8375 900 
+Wire Wire Line
+	8375 900  8350 900 
+Wire Wire Line
+	8125 1025 8050 1025
+Wire Wire Line
+	8050 1025 8050 900 
+Wire Wire Line
+	8125 1025 8125 1175
+Wire Wire Line
+	8050 900  8000 900 
+Connection ~ 8050 900 
+$Comp
+L Device:C C6
+U 1 1 5DFE886F
+P 7000 1225
+F 0 "C6" H 7115 1225 50  0000 L CNN
+F 1 "C" H 7115 1180 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7038 1075 50  0001 C CNN
+F 3 "~" H 7000 1225 50  0001 C CNN
+	1    7000 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1475 7000 1375
+Wire Wire Line
+	7050 1475 7000 1475
+Connection ~ 7000 1475
+Wire Wire Line
+	7000 1025 7000 1075
+$Comp
+L power:GND #PWR0119
+U 1 1 5E009EEA
+P 7000 1025
+F 0 "#PWR0119" H 7000 775 50  0001 C CNN
+F 1 "GND" H 7075 875 50  0000 R CNN
+F 2 "" H 7000 1025 50  0001 C CNN
+F 3 "" H 7000 1025 50  0001 C CNN
+	1    7000 1025
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5E0108BA
+P 5775 3900
+F 0 "F1" V 5875 3900 50  0000 C CNN
+F 1 "10" V 5775 3900 50  0000 C CNN
+F 2 "NintendoFootprints:DMG-A04-01_Fuse" V 5705 3900 50  0001 C CNN
+F 3 "~" H 5775 3900 50  0001 C CNN
+	1    5775 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad Bat2-2
+U 1 1 5DD4917B
+P 5625 4325
+F 0 "Bat2-2" V 5579 4475 50  0000 L CNN
+F 1 "AAA GND" V 5670 4475 50  0000 L CNN
+F 2 "NintendoFootprints:DMG-A04-01_BAT2-Negative" H 5625 4325 50  0001 C CNN
+F 3 "~" H 5625 4325 50  0001 C CNN
+	1    5625 4325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5925 3900 6000 3900
+Wire Wire Line
+	5625 3900 5575 3900
+$Comp
+L Device:D D1
+U 1 1 5E039A39
+P 6850 3500
+F 0 "D1" H 6850 3716 50  0000 C CNN
+F 1 "D" H 6850 3625 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6850 3500 50  0001 C CNN
+F 3 "~" H 6850 3500 50  0001 C CNN
+	1    6850 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3500 7050 3500
+$Comp
+L power:GND #PWR0120
+U 1 1 5E041FF6
+P 7050 3500
+F 0 "#PWR0120" H 7050 3250 50  0001 C CNN
+F 1 "GND" V 7055 3372 50  0000 R CNN
+F 2 "" H 7050 3500 50  0001 C CNN
+F 3 "" H 7050 3500 50  0001 C CNN
+	1    7050 3500
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	11100 650  7425 650 
+Wire Notes Line
+	7400 650  5725 650 
+Wire Notes Line
+	5725 650  5725 3075
+Text Notes 6525 3025 0    50   ~ 0
+Battery Backup Circuit\n
+Wire Notes Line
+	4775 3075 4775 4500
+Wire Notes Line
+	4775 4500 7425 4500
+Wire Notes Line
+	4775 3075 7425 3075
+Text Notes 6825 4450 0    50   ~ 0
+Rumble Circuit
+Wire Notes Line
+	11100 6050 7425 6050
+Wire Notes Line
+	11100 650  11100 6050
+Wire Notes Line
+	7425 650  7425 6050
+Text Notes 10775 6025 0    50   ~ 0
+Cartbus\n
+Wire Wire Line
+	6950 1575 7000 1575
+$Comp
+L power:GND #PWR0121
+U 1 1 5E0D980E
+P 7000 1575
+F 0 "#PWR0121" H 7000 1325 50  0001 C CNN
+F 1 "GND" V 7000 1450 50  0000 R CNN
+F 2 "" H 7000 1575 50  0001 C CNN
+F 3 "" H 7000 1575 50  0001 C CNN
+	1    7000 1575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 1775 7000 1775
+NoConn ~ 7000 1775
+Text GLabel 6200 1575 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	6250 1575 6200 1575
+Connection ~ 6700 3500
+$Comp
+L NintendoSymbols:DMG-A04-01-Q1 Q1
+U 1 1 5DE38BE3
+P 6350 3800
+F 0 "Q1" H 6350 3925 50  0000 C CNN
+F 1 "PNP Transistor" H 6350 3834 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 6350 3800 50  0001 C CNN
+F 3 "" H 6350 3800 50  0001 C CNN
+	1    6350 3800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
