@@ -1,5 +1,4 @@
 # These are supported funding model platforms
 
-github: HDR
-github: lpla
+github: HDR, lpla
 custom: ['paypal.me/MartinRefseth']
