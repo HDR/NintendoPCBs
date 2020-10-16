@@ -36,7 +36,7 @@ F 3 "" H 8100 5975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0101
+L AGB-E02-20-rescue:+3.3V-power #PWR0101
 U 1 1 5DFEEB6D
 P 7500 5875
 F 0 "#PWR0101" H 7500 5725 50  0001 C CNN
@@ -104,7 +104,7 @@ D7
 Text GLabel 10400 5875 1    50   Input ~ 0
 CS2
 $Comp
-L power:GND #PWR0102
+L AGB-E02-20-rescue:GND-power #PWR0102
 U 1 1 5DFF0CB2
 P 10600 5875
 F 0 "#PWR0102" H 10600 5625 50  0001 C CNN
@@ -169,7 +169,7 @@ A5
 Text GLabel 8275 2900 0    50   Input ~ 0
 A4
 $Comp
-L power:GND #PWR0103
+L AGB-E02-20-rescue:GND-power #PWR0103
 U 1 1 5DFF3745
 P 8275 1900
 F 0 "#PWR0103" H 8275 1650 50  0001 C CNN
@@ -180,7 +180,7 @@ F 3 "" H 8275 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0104
+L AGB-E02-20-rescue:GND-power #PWR0104
 U 1 1 5DFF3B77
 P 10425 2200
 F 0 "#PWR0104" H 10425 1950 50  0001 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 10425 2200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R1
+L AGB-E02-20-rescue:R-Device R1
 U 1 1 5DFF4114
 P 7800 2800
 F 0 "R1" V 7800 2750 50  0000 L CNN
@@ -202,7 +202,7 @@ F 3 "~" H 7800 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R2
+L AGB-E02-20-rescue:R-Device R2
 U 1 1 5DFF46E0
 P 7800 2700
 F 0 "R2" V 7800 2650 50  0000 L CNN
@@ -213,7 +213,7 @@ F 3 "~" H 7800 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R3
+L AGB-E02-20-rescue:R-Device R3
 U 1 1 5DFF4A79
 P 7800 2600
 F 0 "R3" V 7800 2550 50  0000 L CNN
@@ -237,7 +237,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 2700 7600 2700
 $Comp
-L power:GND #PWR0105
+L AGB-E02-20-rescue:GND-power #PWR0105
 U 1 1 5E0036EB
 P 7600 2700
 F 0 "#PWR0105" H 7600 2450 50  0001 C CNN
@@ -248,7 +248,7 @@ F 3 "" H 7600 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0106
+L AGB-E02-20-rescue:GND-power #PWR0106
 U 1 1 5DFF2B6E
 P 8275 2300
 F 0 "#PWR0106" H 8275 2050 50  0001 C CNN
@@ -259,7 +259,7 @@ F 3 "" H 8275 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C3
+L AGB-E02-20-rescue:C-Device C3
 U 1 1 5E003A9F
 P 7725 1975
 F 0 "C3" V 7875 1925 50  0000 L CNN
@@ -270,7 +270,7 @@ F 3 "~" H 7725 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0107
+L AGB-E02-20-rescue:+3.3V-power #PWR0107
 U 1 1 5DFF3198
 P 8275 2100
 F 0 "#PWR0107" H 8275 1950 50  0001 C CNN
@@ -281,7 +281,7 @@ F 3 "" H 8275 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0108
+L AGB-E02-20-rescue:+3.3V-power #PWR0108
 U 1 1 5E00BACB
 P 7725 2125
 F 0 "#PWR0108" H 7725 1975 50  0001 C CNN
@@ -292,7 +292,7 @@ F 3 "" H 7725 2125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0109
+L AGB-E02-20-rescue:GND-power #PWR0109
 U 1 1 5E00C145
 P 7725 1825
 F 0 "#PWR0109" H 7725 1575 50  0001 C CNN
@@ -303,7 +303,7 @@ F 3 "" H 7725 1825 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R5
+L AGB-E02-20-rescue:R-Device R5
 U 1 1 5E00DE81
 P 6350 850
 F 0 "R5" V 6275 850 50  0000 C CNN
@@ -314,7 +314,7 @@ F 3 "~" H 6350 850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0110
+L AGB-E02-20-rescue:+3.3V-power #PWR0110
 U 1 1 5E00E579
 P 6200 850
 F 0 "#PWR0110" H 6200 700 50  0001 C CNN
@@ -325,7 +325,7 @@ F 3 "" H 6200 850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0111
+L AGB-E02-20-rescue:GND-power #PWR0111
 U 1 1 5E00F04F
 P 6500 850
 F 0 "#PWR0111" H 6500 600 50  0001 C CNN
@@ -336,7 +336,7 @@ F 3 "" H 6500 850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C2
+L AGB-E02-20-rescue:C-Device C2
 U 1 1 5E00F60E
 P 6175 1750
 F 0 "C2" H 6060 1750 50  0000 R CNN
@@ -347,7 +347,7 @@ F 3 "~" H 6175 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C1
+L AGB-E02-20-rescue:C-Device C1
 U 1 1 5E01A6B1
 P 3600 2275
 F 0 "C1" H 3715 2321 50  0000 L CNN
@@ -358,7 +358,7 @@ F 3 "~" H 3600 2275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L AGB-E02-20-rescue:R-Device R4
 U 1 1 5E01B00C
 P 3600 3000
 F 0 "R4" V 3525 3000 50  0000 C CNN
@@ -369,7 +369,7 @@ F 3 "~" H 3600 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0112
+L AGB-E02-20-rescue:+3.3V-power #PWR0112
 U 1 1 5E01B83F
 P 3600 3150
 F 0 "#PWR0112" H 3600 3000 50  0001 C CNN
@@ -380,7 +380,7 @@ F 3 "" H 3600 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR0113
+L AGB-E02-20-rescue:+3.3V-power #PWR0113
 U 1 1 5E01C361
 P 3600 2125
 F 0 "#PWR0113" H 3600 1975 50  0001 C CNN
@@ -391,7 +391,7 @@ F 3 "" H 3600 2125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0114
+L AGB-E02-20-rescue:GND-power #PWR0114
 U 1 1 5E01C5C5
 P 3600 2425
 F 0 "#PWR0114" H 3600 2175 50  0001 C CNN
@@ -402,7 +402,7 @@ F 3 "" H 3600 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L AGB-E02-20-rescue:GND-power #PWR0115
 U 1 1 5E01D863
 P 3600 2850
 F 0 "#PWR0115" H 3600 2600 50  0001 C CNN
@@ -413,7 +413,7 @@ F 3 "" H 3600 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR0116
+L AGB-E02-20-rescue:+3.3V-power #PWR0116
 U 1 1 5E01EB01
 P 6175 1900
 F 0 "#PWR0116" H 6175 1750 50  0001 C CNN
@@ -424,7 +424,7 @@ F 3 "" H 6175 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0117
+L AGB-E02-20-rescue:GND-power #PWR0117
 U 1 1 5E01F666
 P 6175 1600
 F 0 "#PWR0117" H 6175 1350 50  0001 C CNN
@@ -435,7 +435,7 @@ F 3 "" H 6175 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0118
+L AGB-E02-20-rescue:GND-power #PWR0118
 U 1 1 5E028389
 P 10500 5875
 F 0 "#PWR0118" H 10500 5625 50  0001 C CNN
@@ -457,7 +457,7 @@ F 3 "" H 5050 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L AGB-E02-20-rescue:GND-power #PWR0119
 U 1 1 5E039B7F
 P 4450 1300
 F 0 "#PWR0119" H 4450 1050 50  0001 C CNN
@@ -468,7 +468,7 @@ F 3 "" H 4450 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0120
+L AGB-E02-20-rescue:GND-power #PWR0120
 U 1 1 5E03A3E2
 P 4450 2000
 F 0 "#PWR0120" H 4450 1750 50  0001 C CNN
@@ -479,7 +479,7 @@ F 3 "" H 4450 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0121
+L AGB-E02-20-rescue:GND-power #PWR0121
 U 1 1 5E03A8A1
 P 4450 3200
 F 0 "#PWR0121" H 4450 2950 50  0001 C CNN
@@ -490,7 +490,7 @@ F 3 "" H 4450 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0122
+L AGB-E02-20-rescue:GND-power #PWR0122
 U 1 1 5E03AAA3
 P 4450 3300
 F 0 "#PWR0122" H 4450 3050 50  0001 C CNN
@@ -501,7 +501,7 @@ F 3 "" H 4450 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0123
+L AGB-E02-20-rescue:GND-power #PWR0123
 U 1 1 5E03AD00
 P 4450 3400
 F 0 "#PWR0123" H 4450 3150 50  0001 C CNN
@@ -512,7 +512,7 @@ F 3 "" H 4450 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0124
+L AGB-E02-20-rescue:GND-power #PWR0124
 U 1 1 5E03B247
 P 5650 3100
 F 0 "#PWR0124" H 5650 2850 50  0001 C CNN
@@ -523,7 +523,7 @@ F 3 "" H 5650 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0125
+L AGB-E02-20-rescue:GND-power #PWR0125
 U 1 1 5E03B6BD
 P 5650 2100
 F 0 "#PWR0125" H 5650 1850 50  0001 C CNN
@@ -534,7 +534,7 @@ F 3 "" H 5650 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0126
+L AGB-E02-20-rescue:GND-power #PWR0126
 U 1 1 5E03B9C3
 P 5650 1500
 F 0 "#PWR0126" H 5650 1250 50  0001 C CNN
@@ -545,7 +545,7 @@ F 3 "" H 5650 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0127
+L AGB-E02-20-rescue:GND-power #PWR0127
 U 1 1 5E03BABF
 P 5650 1400
 F 0 "#PWR0127" H 5650 1150 50  0001 C CNN
@@ -556,7 +556,7 @@ F 3 "" H 5650 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0128
+L AGB-E02-20-rescue:+3.3V-power #PWR0128
 U 1 1 5E03EB98
 P 5650 2000
 F 0 "#PWR0128" H 5650 1850 50  0001 C CNN
@@ -567,7 +567,7 @@ F 3 "" H 5650 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0129
+L AGB-E02-20-rescue:+3.3V-power #PWR0129
 U 1 1 5E03F059
 P 5650 3200
 F 0 "#PWR0129" H 5650 3050 50  0001 C CNN
@@ -578,7 +578,7 @@ F 3 "" H 5650 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0130
+L AGB-E02-20-rescue:+3.3V-power #PWR0130
 U 1 1 5E03F2A3
 P 5650 3300
 F 0 "#PWR0130" H 5650 3150 50  0001 C CNN
@@ -589,7 +589,7 @@ F 3 "" H 5650 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0131
+L AGB-E02-20-rescue:+3.3V-power #PWR0131
 U 1 1 5E0400DD
 P 4450 2100
 F 0 "#PWR0131" H 4450 1950 50  0001 C CNN
@@ -600,7 +600,7 @@ F 3 "" H 4450 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0132
+L AGB-E02-20-rescue:+3.3V-power #PWR0132
 U 1 1 5E04026A
 P 4450 1500
 F 0 "#PWR0132" H 4450 1350 50  0001 C CNN
@@ -611,7 +611,7 @@ F 3 "" H 4450 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0133
+L AGB-E02-20-rescue:+3.3V-power #PWR0133
 U 1 1 5E04053C
 P 4450 1400
 F 0 "#PWR0133" H 4450 1250 50  0001 C CNN
@@ -676,7 +676,7 @@ D6
 Text GLabel 4450 1900 0    50   Input ~ 0
 D7
 $Comp
-L Mechanical:MountingHole PlatedHole1
+L AGB-E02-20-rescue:MountingHole-Mechanical PlatedHole1
 U 1 1 5F1CF176
 P 6675 3625
 F 0 "PlatedHole1" H 6775 3671 50  0000 L CNN
@@ -687,7 +687,7 @@ F 3 "~" H 6675 3625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad Pad1
+L AGB-E02-20-rescue:MountingHole_Pad-Mechanical Pad1
 U 1 1 5F1D11A5
 P 6725 4125
 F 0 "Pad1" V 6679 4275 50  0000 L CNN
@@ -698,7 +698,7 @@ F 3 "~" H 6725 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad Pad2
+L AGB-E02-20-rescue:MountingHole_Pad-Mechanical Pad2
 U 1 1 5F1D1E72
 P 6725 4325
 F 0 "Pad2" V 6679 4475 50  0000 L CNN
@@ -709,7 +709,7 @@ F 3 "~" H 6725 4325 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad Pad3
+L AGB-E02-20-rescue:MountingHole_Pad-Mechanical Pad3
 U 1 1 5F1D2265
 P 6725 4525
 F 0 "Pad3" V 6679 4675 50  0000 L CNN
@@ -720,7 +720,7 @@ F 3 "~" H 6725 4525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0134
+L AGB-E02-20-rescue:GND-power #PWR0134
 U 1 1 5F1D3C86
 P 6625 4125
 F 0 "#PWR0134" H 6625 3875 50  0001 C CNN
@@ -731,7 +731,7 @@ F 3 "" H 6625 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0135
+L AGB-E02-20-rescue:GND-power #PWR0135
 U 1 1 5F1D408B
 P 6625 4325
 F 0 "#PWR0135" H 6625 4075 50  0001 C CNN
@@ -742,7 +742,7 @@ F 3 "" H 6625 4325 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0136
+L AGB-E02-20-rescue:GND-power #PWR0136
 U 1 1 5F1D4442
 P 6625 4525
 F 0 "#PWR0136" H 6625 4275 50  0001 C CNN
@@ -753,7 +753,7 @@ F 3 "" H 6625 4525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole G1
+L AGB-E02-20-rescue:MountingHole-Mechanical G1
 U 1 1 5F1DA8DA
 P 6775 4925
 F 0 "G1" H 6875 4971 50  0000 L CNN
@@ -764,7 +764,7 @@ F 3 "~" H 6775 4925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad Pad4
+L AGB-E02-20-rescue:MountingHole_Pad-Mechanical Pad4
 U 1 1 5F207589
 P 6725 4725
 F 0 "Pad4" V 6679 4875 50  0000 L CNN
@@ -775,7 +775,7 @@ F 3 "~" H 6725 4725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0137
+L AGB-E02-20-rescue:GND-power #PWR0137
 U 1 1 5F20758F
 P 6625 4725
 F 0 "#PWR0137" H 6625 4475 50  0001 C CNN
