@@ -38,4 +38,7 @@ bom/
 # Gerber export output
 out/
 
+
+AGB-E02-20/AGB-E02-20-backups/*
+
 # End of https://www.gitignore.io/api/kicad
