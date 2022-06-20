@@ -40,5 +40,11 @@ out/
 
 
 AGB-E02-20/AGB-E02-20-backups/*
+AGB-E02-20/Gerbers/*
+AGB-E02-20/Custom.pretty/*
+AGB-E05-01 KiCad 6.99/*
+AGB-E05-01/AGB-E05-01-backups/*
+AGB-E05-01/Backup/*
+AGB-E05-01/Push2OSHPark/*
 
 # End of https://www.gitignore.io/api/kicad
