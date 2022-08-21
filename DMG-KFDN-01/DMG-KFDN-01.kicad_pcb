@@ -1044,7 +1044,7 @@
   (gr_text "V1.0" (at 120.77192 70.95236) (layer "B.Mask") (tstamp 5edcefbe-9766-42c8-9529-28d0ec865573)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "DMG-KDFN-01" (at 154.94 70.5358) (layer "F.Mask") (tstamp 6e68f0cd-800e-4167-9553-71fc59da1eeb)
+  (gr_text "DMG-KFDN-01" (at 154.94 70.5358) (layer "F.Mask") (tstamp 6e68f0cd-800e-4167-9553-71fc59da1eeb)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
