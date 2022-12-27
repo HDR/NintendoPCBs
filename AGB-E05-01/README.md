@@ -1,6 +1,6 @@
 # AGB-E05-01
 
-Intended as a replacement for Games like Fire Red & Leaf Green
+Intended as a replacement for Games like Emerald
 
 ## BOM
 | **Designator** | **Part**                              |
