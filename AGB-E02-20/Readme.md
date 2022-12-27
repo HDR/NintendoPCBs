@@ -13,5 +13,5 @@ Intended as a replacement for Games like Fire Red & Leaf Green
 
 ### Images
 
-![](./Assets/AGB-E02-20_Front.png)
-![](./Assets/AGB-E02-20_Back.png)
+![](../Assets/AGB-E02-20_Front.png)
+![](../Assets/AGB-E02-20_Back.png)
