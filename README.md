@@ -1,6 +1,6 @@
 # [Make sure you read the License before downloading anything!](https://github.com/HDR/NintendoPCBs/blob/master/LICENSE)
 
-**All boards should be ordered in 0.8 ENIG NOT HASL!**
+**All boards should be ordered in 0.8mm thickness with ENIG, Do not order in 1.6mm thickness or HASL!**
 
 **AGB-E02-20:**
 [![name](/Assets/AGB-E02-20_Front.png)](https://github.com/HDR/NintendoPCBs/tree/master/AGB-E02-20)
