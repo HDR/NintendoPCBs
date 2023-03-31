@@ -8,6 +8,7 @@
 **AGB-E05-01:**
 [![name](/Assets/AGB-E05-01_Front.png)](https://github.com/HDR/NintendoPCBs/tree/master/AGB-E05-01)
 
-
+**DMG-KFDN-01:**
+[![name](/Assets/DMG-KFDN-01_Front.png)](https://github.com/HDR/NintendoPCBs/tree/master/DMG-KFDN-01)
 
 See the [Nintendo Board Scans](https://github.com/HDR/Nintendo_Board_Scans) for more.
