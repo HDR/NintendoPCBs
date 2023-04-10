@@ -1,5 +1,7 @@
 # [Make sure you read the License before downloading anything!](https://github.com/HDR/NintendoPCBs/blob/master/LICENSE)
 
+# Please note that these boards can only be used to fix broken games, they can not be used for piracy/bootleg games
+
 **All boards should be ordered in 0.8mm thickness with ENIG, Do not order in 1.6mm thickness or HASL!**
 
 
